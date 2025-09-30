@@ -1,0 +1,89 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f4f6fa;
+  margin: 0;
+  color: #222;
+}
+header, footer {
+  background: #2d3e50;
+  color: #fff;
+  padding: 20px 0 10px 0;
+  text-align: center;
+}
+nav a {
+  color: #ffd700;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+nav a:hover {
+  color: #fff;
+}
+main {
+  max-width: 900px;
+  margin: 30px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(44,62,80,0.08);
+  padding: 30px 40px;
+}
+h1, h2 {
+  color: #2d3e50;
+}
+section {
+  margin-bottom: 32px;
+}
+figure {
+  display: inline-block;
+  margin: 16px 24px 16px 0;
+  text-align: center;
+}
+figure img {
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(44,62,80,0.10);
+  border: 2px solid #e0e0e0;
+}
+figcaption {
+  margin-top: 8px;
+  font-size: 1em;
+  color: #555;
+}
+ul {
+  list-style: disc inside;
+  margin-bottom: 18px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 12px 0;
+  background: #fafbfc;
+}
+th, td {
+  border: 1px solid #d0d7de;
+  padding: 10px 12px;
+  text-align: left;
+}
+th {
+  background: #e9ecef;
+  color: #2d3e50;
+}
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+footer p {
+  margin: 8px 0 0 0;
+  font-size: 1em;
+}
+@media (max-width: 700px) {
+  main {
+    padding: 10px 2vw;
+  }
+  figure {
+    margin: 10px 5px 10px 0;
+  }
+}
